@@ -78,7 +78,7 @@ p {
 
 #button-container {
   margin: 0 auto;
-  width: 50%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -120,7 +120,7 @@ p {
 }
 
 .button-green {
-  width: 270px;
+  width: 45%;
   margin: 0 auto;
   background: #17aa56;
   color: #fff;
@@ -132,7 +132,7 @@ p {
   outline: none;
   margin-bottom: 20px;
   margin-top: 20px;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 /* END CONTENT STYLES */
@@ -142,15 +142,29 @@ p {
 @media (min-width: 768px) {
   #heading-container,
   #intro-container,
-  #app-container {
+  #app-container,
+  #button-container,
+  #input-container,
+  #output-container {
     width: 80%;
+  }
+
+  .button-green {
+    width: 33%;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.5em;
   }
 }
 
 @media (min-width: 1024px) {
   #heading-container,
   #intro-container,
-  #app-container {
+  #app-container,
+  #button-container,
+  #input-container,
+  #output-container {
     width: 70%;
   }
 }
