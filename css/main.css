@@ -81,7 +81,10 @@ p {
   width: 90%;
   display: flex;
   align-items: center;
+  justify-content: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 #input-container {
@@ -120,19 +123,16 @@ p {
 }
 
 .button-green {
-  width: 45%;
-  margin: 0 auto;
+  min-width: 45%;
   background: #17aa56;
   color: #fff;
   border-radius: 7px;
   box-shadow: 0 5px #119e4d;
-  padding: 15px;
   border: none;
-  display: inline-block;
   outline: none;
+  font-size: 1em;
   margin-bottom: 20px;
-  margin-top: 20px;
-  font-size: 1.2em;
+  padding: 10px 10px;
 }
 
 /* END CONTENT STYLES */
@@ -150,7 +150,7 @@ p {
   }
 
   .button-green {
-    width: 33%;
+    min-width: 30%;
     padding: 15px;
     margin-bottom: 20px;
     margin-top: 20px;
